@@ -21,11 +21,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e17474;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+div h1 { color: #eca90d;
+font-size: 30px;}
+
+.contenedornav{width: 100%;
+  align-items:center;
+      display:grid;
+      grid-template-columns:repeat(6,1fr);
+      background-color: #282c34;
+      
+}
+.contenedornav h1{width: 100%;
+  color: #e17474;
+  font-size: 20px;
+  
+}
+.btnnav{
+  background-color: transparent;
+  border: none;
+  color: #b6820b;
+  
+}
+.contenedornav img { 
+  width: 30%;
 }
