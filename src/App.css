@@ -41,15 +41,14 @@ div h1 { color: #eca90d;
 font-size: 30px;}
 
 .contenedornav{width: 100%;
-  align-items:center;
-      display:grid;
-      grid-template-columns:repeat(6,1fr);
+      align-items:center;
       background-color: #282c34;
       
 }
 .contenedornav h1{width: 100%;
   color: #e17474;
   font-size: 20px;
+  margin: 0;
   
 }
 .btnnav{
@@ -60,4 +59,16 @@ font-size: 30px;}
 }
 .contenedornav img { 
   width: 30%;
+}
+.navc{
+      display:grid;
+      grid-template-columns:repeat(6,1fr);
+      align-items: center;
+      text-align: center;
+}
+.carrito{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1px;
 }

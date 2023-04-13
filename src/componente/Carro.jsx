@@ -1,10 +1,11 @@
 import React from 'react'
+import carrito from './img/farmacia-en-linea.png'
 
 export const Carro = () => {
   return (
-    <div style={{background:"#202020", color: '#fff', padding: '20px'}}>
-        <h1 style={{color:'white'}}></h1>
-        <p></p>
+    <div className='carrito'>
+        <img src={carrito}/>
+        <div>4</div>
     </div>
   )
 }
